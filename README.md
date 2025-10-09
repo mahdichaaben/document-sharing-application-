@@ -20,7 +20,7 @@ A secure document management system built with Spring Boot, enabling users to st
 | Database | 27017 | MongoDB |
 | Static Server | 9999 | Nginx |
 
-![Architecture Diagram](images/architecture-diagram.png)
+![Architecture Diagram](images/arch.png)
 
 *Containerized microservices architecture with Docker deployment*
 
