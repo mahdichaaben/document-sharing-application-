@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nginx:
+    build: .
+    ports:
+      - "9999:9999"
+    volumes:
+      - ./files:/var/www/files  
+      - ./front:/var/www/front  
+    container_name: nginx-static-server
+    restart: always

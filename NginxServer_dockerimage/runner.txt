@@ -1,0 +1,5 @@
+docker-compose up --build
+docker-compose down --volumes
+
+
+curl -X DELETE http://localhost:8085/delete/3461225.jpg

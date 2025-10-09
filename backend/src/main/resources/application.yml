@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+      username: admin
+      password: pass
+      host: ${MONGO_HOST:localhost}  # Look for MONGO_HOST, default to localhost if not set
+      port: 27017
+      database: docProject
+      authentication-database: admin
+
+server:
+  port: 8081
+
+file:
+  storage-location: E:/isims/d-ing/jee/docProject/staticServer/files
+  base-url: http://localhost:9999/files/
+
+frontend-url: ${FRONTEND_URL:http://localhost:5173}  # Look for FRONTEND_URL, default to http://localhost:5173 if not set

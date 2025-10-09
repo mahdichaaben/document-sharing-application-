@@ -1,0 +1,18 @@
+{
+    "user": {
+      "id": 1,
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "avatar": "https://randomuser.me/api/portraits/women/1.jpg",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      },
+      "preferences": {
+        "theme": "light", 
+        "language": "en"
+      }
+    }
+  }
+  
