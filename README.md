@@ -66,14 +66,6 @@ A secure document management system built with Spring Boot, enabling users to st
 - **Mongo Express**: http://localhost:8083 (mahdi/mahdi)
 - **File Server**: http://localhost:9999
 
-## 📊 MongoDB Setup
-MongoDB with Mongo Express UI for database management:
-- **Database**: `auth` (auto-initialized)
-- **Admin Credentials**: admin/pass
-- **Web UI Access**: http://localhost:8083 (mahdi/mahdi)
-- **Data Storage**: Persistent volume in `./data`
-
----
 
 **Made by Mahdi Chaaben**  
 **Demo:** [View Application](https://drive.google.com/file/d/16OiFlDSA8u720J9qNbtof7uf2mjsMqdO/view?usp=sharing)
